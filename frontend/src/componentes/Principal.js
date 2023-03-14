@@ -8,7 +8,8 @@ export default function Principal() {
   	  <br />
 
       <article className = "App-section">
-        <h1>Bienvenido</h1>
+        <h3>Bienvenid@</h3>
+        <p>Sistema de Control de Préstamos</p>
       </article>
 
       <br />

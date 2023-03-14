@@ -46,12 +46,13 @@
   justify-content: center;
   font-size: calc(5px + 2vmin);
   color: white;
-
+  margin: 0 auto;
+  padding: 3em;
 }
 
 .App-footer {
   background-color: #00264e;
-  padding-top: 5vh;
+  padding-top: 2vh;
   min-height: 2vh;
   display: flex;
   flex-direction: column;
@@ -61,4 +62,17 @@
   color: white;
   text-align: center;
   font-family: "Helvetica";
+}
+
+.form-container {
+  text-align: center;
+  width: 70%;
+}
+
+.App-list {
+  padding: 1vh;
+}
+
+.App-list i {
+  padding: 1vh;
 }
