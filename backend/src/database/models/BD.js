@@ -3,8 +3,8 @@
 
 const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize('scpe', 'root', 'admin', {
-    host: 'localhost',
+const sequelize = new Sequelize('bfson50eliiepzcjmhyt', 'u7dhsuugmv4gkch9', '4V0r0Dmcz3aquvS7BLVk', {
+    host: 'bfson50eliiepzcjmhyt-mysql.services.clever-cloud.com',
     dialect: 'mysql',
 });
 

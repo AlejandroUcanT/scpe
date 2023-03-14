@@ -1,8 +1,8 @@
 const controllers = {}
 
-var sequelize = require('../model/BD');
+var sequelize = require('../database/models/BD');
 //Importación modelo y sequelize
-var Equipo = require('../model/Equipo');
+var Equipo = require('../database/models/Equipo');
 
 controllers.create = async (req,res) => {
   console.log("\nAgregar Equipo");

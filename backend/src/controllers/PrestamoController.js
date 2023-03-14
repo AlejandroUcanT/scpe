@@ -1,8 +1,8 @@
 const controllers = {}
 
-const sequelize = require('../model/BD');
+const sequelize = require('../database/models/BD');
 //Importación modelo y sequelize
-const Prestamo = require('../model/Prestamo');
+const Prestamo = require('../database/models/Prestamo');
 
 const adminConsulta = require('sequelize');
 const op = adminConsulta.Op;

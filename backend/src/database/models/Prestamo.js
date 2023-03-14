@@ -6,20 +6,20 @@ const sequelize = require('./BD');
 const Equipo = require('./Equipo');
 
 //Asignación de la tabla
-const nombreTabla = "prestamo";
+const nombreTabla = "prestamos";
 //Declaración de atributos de la tabla
 const Prestamo = sequelize.define(nombreTabla, {
-  ID_PRESTAMO: {
+  id_prestamo: {
     type: Sequelize.STRING,
     primaryKey: true,
     autoIncrement: false,
   },
-  SOLICITANTE: Sequelize.STRING,
-  PROCEDENCIA: Sequelize.STRING,
-  ID_EQUIPO: Sequelize.STRING,
-  FECHA_PRESTAMO: Sequelize.STRING,
-  FECHA_DEVOLUCION: Sequelize.STRING,
-  TIPO_PRESTAMO: Sequelize.STRING
+  solicitante: Sequelize.STRING,
+  procedencia: Sequelize.STRING,
+  id_equipo: Sequelize.STRING,
+  fecha_prestamo: Sequelize.STRING,
+  fecha_devolucion: Sequelize.STRING,
+  tipo_prestamo : Sequelize.STRING
 },
 {
 	 timestamps: false,

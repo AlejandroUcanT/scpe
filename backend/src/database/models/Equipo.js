@@ -4,19 +4,19 @@ const Sequelize = require('sequelize');
 const sequelize = require('./BD');
 
 //Asignación de la tabla
-const nombreTabla = "equipo";
+const nombreTabla = "equipos";
 //Declaración de atributos de la tabla
 const Equipo = sequelize.define(nombreTabla, {
-  NUM_INVENTARIO: {
+  num_inventario: {
     type: Sequelize.STRING,
     primaryKey: true,
     autoIncrement: false,
   },
-  TIPO: Sequelize.STRING,
-  MARCA: Sequelize.STRING,
-  MODELO: Sequelize.STRING,
-  NUM_SERIE: Sequelize.STRING,
-  DISPONIBILIDAD: Sequelize.STRING,
+  tipo: Sequelize.STRING,
+  marca: Sequelize.STRING,
+  modelo: Sequelize.STRING,
+  num_serie: Sequelize.STRING,
+  disponibilidad: Sequelize.STRING,
 },
 {
 	 timestamps: false,
