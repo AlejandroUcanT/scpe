@@ -28,8 +28,8 @@ class Prestamo extends React.Component{
         <h1>Registro de Préstamo</h1>
         <hr align="center" noshade="noshade" size="10"  width="90%" />
         <br/>
-        <div class="form-row justify-content-center">
-          <div class="form-group col-md-3">
+        <div class="form-row justify-content-center form-container">
+          <div class="form-group col-md-6">
             <label>Id Préstamo</label>
             <input
               type="text" class="form-control"
@@ -39,7 +39,7 @@ class Prestamo extends React.Component{
             />
           </div>
 
-          <div class="form-group col-md-3">
+          <div class="form-group col-md-6">
             <label>Solicitante</label>
             <input
               type="text" class="form-control"
@@ -49,7 +49,7 @@ class Prestamo extends React.Component{
             />
           </div>
 
-          <div class="form-group col-md-3">
+          <div class="form-group col-md-6">
             <label>Procedencia</label>
             <input
               type="text" class="form-control"
@@ -59,7 +59,7 @@ class Prestamo extends React.Component{
             />
           </div>
 
-          <div class="form-group col-md-4">
+          <div class="form-group col-md-6">
             <label>ID Equipo</label>
             <input
               type="text" class="form-control"
@@ -69,7 +69,7 @@ class Prestamo extends React.Component{
             />
           </div>
 
-          <div class="form-group col-md-3">
+          <div class="form-group col-md-6">
             <label>Tipo de préstamo</label>
             <select class="form-control" onChange={(value)=> this.setState({tipoPrestamo:value.target.value})}>
               <option selected>Tipo de Préstamo...</option>
@@ -78,7 +78,7 @@ class Prestamo extends React.Component{
             </select>
           </div>
 
-          <div class="form-group col-md-3">
+          <div class="form-group col-md-6">
             <label>Fecha de Devolución</label>
             <input type="date" class="form-control"
               placeholder="dd-mm-aaaa"
